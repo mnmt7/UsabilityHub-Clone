@@ -173,7 +173,7 @@ a:hover {
     color: var(--BANNER-COLOR);
 }
 
-/* HEADER */
+/* || HEADER */
 .header {
     position: relative;
 }
@@ -290,6 +290,7 @@ header:hover .header__nav {
     justify-content: space-evenly;
     padding: var(--PADDING);
 }
+
 /* 
 .hero__button {
     display: inline-block; // comment this line
@@ -405,7 +406,7 @@ header:hover .header__nav {
 } */
 
 .big-feature {
-    padding:  20px 50px;
+    padding: 20px 50px;
     gap: 60px;
 }
 
@@ -541,10 +542,12 @@ header:hover .header__nav {
     width: 17px;
 }
 
-.link, .subfooter__info-link:any-link {
+.link,
+.subfooter__info-link:any-link {
     color: var(--HEADER-COLOR);
 }
 
-.link:hover, .subfooter__info-link:hover {
+.link:hover,
+.subfooter__info-link:hover {
     color: var(--SECONDARY-HOVER-COLOR);
 }
